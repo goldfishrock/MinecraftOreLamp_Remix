@@ -19,24 +19,19 @@ I wasn’t familiar with the Neopixel library or how to control individually add
 
 
 Arduino Pin		
+
 5		->		Button Pin
-
 7		->		DIN (Data In on LED strip)
-
 GND		->		Common Ground (choc-bloc)
-
 RAW/VCC	->		Common 5V (choc-bloc)
 
 LED Strip
 +5v		->		Common 5V (choc-bloc)
-
 DIN		->		Pin 7 (Arduino)
-
 GND		-> 		Common Ground (choc-bloc)
 
 Button
 Pin 1		->		Pin 5 (Arduino)
-
 Pin 2		->		Common Ground (choc-bloc)
 
 A 5v supply is then connected to the other side of the two ‘commons’ choc-bloc.
