@@ -10,7 +10,7 @@ NEO_KHZ400 400 KHz (classic 'v1' (not v2) FLORA pixels, WS2811 drivers)
 NEO_GRB Pixels are wired for GRB bitstream (most NeoPixel products)
 NEO_RGB Pixels are wired for RGB bitstream (v1 FLORA pixels, not v2)
 NEO_RGBW Pixels are wired for RGBW bitstream (NeoPixel RGBW products)
-(Source: https://learn.adafruit.com/adafruit-neopixel-uberguide/arduino-library-use)*
+- (Source: https://learn.adafruit.com/adafruit-neopixel-uberguide/arduino-library-use)*
 
 
 I changed mine to the GRB version and it worked straight away. The updated code can be found here: https://github.com/goldfishrock/MinecraftOreLamp_Remix
