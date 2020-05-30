@@ -17,19 +17,26 @@ I changed mine to the GRB version and it worked straight away. The updated code 
 
 I wasn’t familiar with the Neopixel library or how to control individually addressable LEDs and I couldn’t find any info on the wiring on the original Thingiverse  post. So just in case anyone else is a little confused, this is how I connected mine.
 
+
 Arduino Pin		
 5		->		Button Pin
+
 7		->		DIN (Data In on LED strip)
+
 GND		->		Common Ground (choc-bloc)
+
 RAW/VCC	->		Common 5V (choc-bloc)
 
 LED Strip
 +5v		->		Common 5V (choc-bloc)
+
 DIN		->		Pin 7 (Arduino)
+
 GND		-> 		Common Ground (choc-bloc)
 
 Button
 Pin 1		->		Pin 5 (Arduino)
+
 Pin 2		->		Common Ground (choc-bloc)
 
 A 5v supply is then connected to the other side of the two ‘commons’ choc-bloc.
