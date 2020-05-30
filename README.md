@@ -5,12 +5,12 @@ I decided to make this for my lad who is a recent convert and is now totally obs
 
 After wiring it all up and blowing the code to the Arduino I found that I was getting five entirely different colours but when testing it with the example Adafruit Neopixel Sketches included with the library it was working fine, so I knew the hardware and wiring was correct. After a little digging I found that there were several choices when the Adafruit_NeoPixel object was created
 
-_ _ NEO_KHZ800 800 KHz bitstream (most NeoPixel products w/WS2812 LEDs)
+*NEO_KHZ800 800 KHz bitstream (most NeoPixel products w/WS2812 LEDs)
 NEO_KHZ400 400 KHz (classic 'v1' (not v2) FLORA pixels, WS2811 drivers)
 NEO_GRB Pixels are wired for GRB bitstream (most NeoPixel products)
 NEO_RGB Pixels are wired for RGB bitstream (v1 FLORA pixels, not v2)
 NEO_RGBW Pixels are wired for RGBW bitstream (NeoPixel RGBW products)
-(Source: https://learn.adafruit.com/adafruit-neopixel-uberguide/arduino-library-use) _ _
+(Source: https://learn.adafruit.com/adafruit-neopixel-uberguide/arduino-library-use)*
 
 
 I changed mine to the GRB version and it worked straight away. The updated code can be found here: https://github.com/goldfishrock/MinecraftOreLamp_Remix
